@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script >
+	function onclick(name,src)
+    {
+		window.parent.frames['left'].location.href='left1.html'
+	}
+</script>
+</head>
+<body>
+<div id="left">
+    <li class="dir">
+        <a href ="top.html" >阿斯达斯的</a>
+        <a class="left" href ="top.html" ><img src="imge/delete.png" /></a>
+        <a  class="left"href=""><img src="imge/add.png"/></a>
+    </li>
+    <li class="file">
+        <a href='javascript:onclick()' target="left">文件1 </a>
+        <a href ="top.html" ><img src="imge/delete.png" /></a>
+        <a href=""><img src="imge/add.png"/></a>
+    </li>
+    <li class="pic">
+        <a href ="/example/html/frame_c.html" target ="showframe">图片</a>
+        <a href ="top.html" ><img src="imge/delete.png" /></a>
+        <a href=""><img src="imge/add.png"/></a>
+    </li>
+</div>
+</body>
+</html>
