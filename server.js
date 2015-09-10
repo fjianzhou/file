@@ -13,7 +13,6 @@ http.createServer(function(req,res){
 
     if(urls.pathname=='/')
     {
-
         fs.readFile('./index.html',function(err,data)
         {
             if(err)
@@ -258,10 +257,7 @@ http.createServer(function(req,res){
                         })
                     })
                 }
-                else
-                {
 
-                }
             }
 
         })
