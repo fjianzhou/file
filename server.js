@@ -159,15 +159,17 @@ http.createServer(function(req,res){
                 {
                     fs.readdir(visitPath,function(err,files){
                         var htmlstr="";
-                        if(files.length==0)
-                        {
-
-                            //var lastStrIndex= visitPath.lastIndexOf('/')
-                            //console.log(())
-                            //htmlstr+='<li>这个目录下没有发现文件';
-                            ////htmlstr+='<a href ="\''++'\'">'+返回上一级目录+'</a>';
-                            //htmlstr+='</li>';
+                        var lastStrIndex= visitPath.lastIndexOf('\\');
+                        var tem=visitPath.substring(0,lastStrIndex).replace(rootPath,"");
+                        console.log('tem'+visitPath);
+                        if(tem!='') {
+                            if (files.length == 0) {
+                                htmlstr += '<li>目录下没有发现文件';
+                            }
+                            htmlstr += '</li>';
+                            htmlstr += '<li><a href ="' + tem + '">返回上一级目录</a></li>';
                         }
+
                         files.forEach(function(currentFile){
 
 
