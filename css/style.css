@@ -20,12 +20,12 @@ a{text-decoration:none;}
 
 #left .dir{width:180px;padding-left:25px;height:17px; background:url(../imge/dir.png) no-repeat;border-bottom:1px #CCC solid;  }
 
-#left .file{width:180px;padding-left:25px;height:17px;background:url(../imge/file.png) no-repeat; margin-top:3px;border-bottom:1px #CCC solid; }
-#left .mp3{width:180px;padding-left:25px;height:17px; background:url(../imge/mp3.png) no-repeat;margin-top:3px;border-bottom:1px #CCC solid; }
-#left .pic{width:180px;padding-left:25px;height:17px; background:url(../imge/pic.png) no-repeat; margin-top:3px;border-bottom:1px #CCC solid; }
-#left .video{width:180px;padding-left:25px;height:17px;background:url(../imge/video.png) no-repeat;margin-top:3px; border-bottom:1px #CCC solid; }
-#left li{font-size:12px;}
-#left li a{font-size:12px;color:#333; margin-left:2px; }
+#left .file{margin-left:4px;width:180px;padding-left:25px;height:17px;background:url(../imge/file.png) no-repeat; margin-top:3px;border-bottom:1px #CCC solid; }
+#left .mp3{margin-left:4px;width:180px;padding-left:25px;height:17px; background:url(../imge/mp3.png) no-repeat;margin-top:3px;border-bottom:1px #CCC solid; }
+#left .pic{ margin-left:4px;width:180px;padding-left:25px;height:17px; background:url(../imge/pic.png) no-repeat; margin-top:3px;border-bottom:1px #CCC solid; }
+#left .video{ margin-left:4px;width:180px;padding-left:25px;height:17px;background:url(../imge/video.png) no-repeat;margin-top:3px; border-bottom:1px #CCC solid; }
+
+#left li a{font-size:12px;color:#333; margin-right:4px; }
 
 #left li a:hover{color:#4E95CB;}
 
